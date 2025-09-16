@@ -14,7 +14,7 @@ public abstract class Product {
     // Getter methods to get the product ID, price, and manufacturer
     public String getProductID() { return productID; }
     public double getPrice() { return price; }
-    public String getBrand() { return brand; }
+    public String getManufacturer() { return manufacturer; }
 
     // Abstract method that will be implemented in the extended classes
     public abstract double getSuitability();
