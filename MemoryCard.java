@@ -5,7 +5,7 @@ public class MemoryCard {
     private int capacity; // Memory card capacity
     private CardClass cardClass; // The class of the memory card (class 4, 6 or 10)
 
-    // Constructor: This is called when creating a new memory card object
+    // Constructor is called when creating a new memory card object
     public MemoryCard(String manufacturer, int capacity, CardClass cardClass) {
         this.manufacturer = manufacturer; // Store manufacturer name
         this.capacity = capacity; // Store capacity in GB
