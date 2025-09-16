@@ -12,22 +12,22 @@ public class MemoryCard {
         this.cardClass = cardClass; // Store card class (speed category)
     }
 
-    // Getter method to get the memory card manufacturer
+    // Getter method to get the manufacturer
     public String getManufacturer() { return manufacturer; }
 
-    // Getter method to get the memory card capacity (size in GB)
+    // Getter method to get the capacity
     public int getCapacity() { return capacity; }
 
-    // Getter method to get the memory card class (speed class)
+    // Getter method to get the memory card class
     public CardClass getCardClass() { return cardClass; }
 
     // The following method calculates the quality of the memory card based on its class and capacity
     public double getQuality() {
         switch (cardClass) {
-            case CLASS_10: return (double) capacity / 3; // Class 10 has a higher quality rating
-            case CLASS_6: return (double) capacity / 5; // Class 6 is medium quality
-            case CLASS_4: return (double) capacity / 13; // Class 4 has the lowest quality
-            default: return 0; // If the class is invalid, return 0
+            case CLASS_10: return (double) capacity / 3; 
+            case CLASS_6: return (double) capacity / 5; 
+            case CLASS_4: return (double) capacity / 13; 
+            default: return 0; // If no class matches, return 0
         }
     }
 }
