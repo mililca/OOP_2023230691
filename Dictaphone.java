@@ -21,7 +21,17 @@ public class Dictaphone extends Product implements Comparable<Dictaphone> {
         this.memoryCard = memoryCard;
     }
 
-    // Getter method to get the year the Dictaphone was made
+    // Getter method to get the manufacturer name
+    public String getManufacturerName() { 
+        return manufacturerName; 
+    }
+
+        // Getter method to get the model
+    public String getModel() { 
+        return model; 
+    }
+
+      // Getter method to get the year the Dictaphone was made
     public int getYearOfManufacture() { 
         return yearOfManufacture; 
     }
