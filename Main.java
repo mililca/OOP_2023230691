@@ -21,11 +21,11 @@ public class Main {
     private static Dictaphone[] demonstrateDictaphones() { 
         // Creating five different Dictaphones
         Dictaphone[] dictaphones = { 
-            new Dictaphone("D01", "Vista", "DR-40X", 2009, 2200, new MemoryCard("Miele", 512, CardClass.CLASS_6)),
-            new Dictaphone("D02", "Sony", "VN-541PC", 2018, 1600, new MemoryCard("Sony", 256, CardClass.CLASS_10)),
-            new Dictaphone("D03", "Olympus", "ICD-BX140", 2014, 1200, new MemoryCard("Hyundai", 128, CardClass.CLASS_10)),
-            new Dictaphone("D04", "Toshiba", "H5 Handy", 2013, 2500, new MemoryCard("Samsung", 64, CardClass.CLASS_4)),
-            new Dictaphone("D05", "Philips", "DVT2110", 2021, 1400, new MemoryCard("Barracuda", 32, CardClass.CLASS_6))
+            new Dictaphone("D01", 129.99, "Vista", "DR-40X", 2009, 2200, new MemoryCard("Miele", 512, CardClass.CLASS_6)),
+            new Dictaphone("D02", 569.99, "Sony", "VN-541PC", 2018, 1600, new MemoryCard("Sony", 256, CardClass.CLASS_10)),
+            new Dictaphone("D03", 89.99, "Olympus", "ICD-BX140", 2014, 1200, new MemoryCard("Hyundai", 128, CardClass.CLASS_10)),
+            new Dictaphone("D04", 179.99, "Toshiba", "H5 Handy", 2013, 2500, new MemoryCard("Samsung", 64, CardClass.CLASS_4)),
+            new Dictaphone("D05", 229.99, "Philips", "DVT2110", 2021, 1400, new MemoryCard("Barracuda", 32, CardClass.CLASS_6))
         };
         return dictaphones; // Returning the array of Dictaphones
     }
